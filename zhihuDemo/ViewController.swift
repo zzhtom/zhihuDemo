@@ -12,6 +12,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        ZZHLog.warning("hello log test")
+        ZZHLog.error("error test")
+        ZZHLog.error("log test ...")
+        ZZHLog.debug("log test ...")
+        ZZHLog.warning("log test ...")
+//        ZZHLog.severe("log test ...")
         // Do any additional setup after loading the view, typically from a nib.
     }
 
